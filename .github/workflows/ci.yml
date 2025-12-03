@@ -28,7 +28,7 @@ jobs:
       # 4️⃣ Run unit tests
       - name: Build and run tests
         run: |
-          gcc main.c test.c -o build/test_app
+          gcc Tests/test.c -o build/test_app
           ./build/test_app
           ls -l build
 
